@@ -1,0 +1,32 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px auto;
+  padding: 16px
+}
+
+label {
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+.card-convo {
+  border-left: 6px solid lightgrey;
+  margin: 22px auto;
+  padding: 8px 0 8px 16px;
+}
+
+.card-convo p {
+  font-size: 18px;
+}
+
+.convo-author {
+  font-style: italic;
+}
+
+.answer {
+  background-color: lightyellow;
+}

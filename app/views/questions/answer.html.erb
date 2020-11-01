@@ -1,0 +1,9 @@
+<div class="card-convo question">
+  <p class="question"><%= @question %></p>
+  <p class="convo-author">-You</p>
+</div>
+<div class="card-convo answer">
+  <p class="answer"><strong><%= @answer %></strong></p>
+  <p class="convo-author">-Your coach</p>
+</div>
+<%= link_to 'Ask a new question', ask_path %>
